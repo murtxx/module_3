@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  margin: 20px auto;
+ }
+ 
+ .card {
+  width: 150px;
+  padding: 20px;
+ }
+ 
+ .card__image {
+  height: 32px;
+  margin: 32px;
+ }
+ .navbar {
+  font-size: 18px;
+}
+.navbar__list {
+  display: flex;
+}
+
+.navbar__item:hover {
+  color: grey;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.navbar__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.left-side {
+  max-width: 380px;
+}
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 380px;
+}
+
+.call-button {
+  all: unset;
+  background-color: rgb(179, 82, 224);
+  padding: 10px 20px;
+  border-radius: 7px;
+  color: #fff;
+}
+
+.call-button:hover {
+  background-color: rgb(77, 162, 247);
+  cursor: pointer;
+}
